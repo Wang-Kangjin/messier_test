@@ -19,13 +19,4 @@ from . import views
 
 urlpatterns = [
     path('', views.index, name='home'),
-    path('asteroid/', views.asteroid),
-    path('galaxy/', views.galaxy),
-    path('moon/', views.moon),
-    path('name/', views.name),
-    path('pluto/', views.pluto),
-    path('result/', views.result),
-    path('star/', views.star),
-    path('year/', views.year),
-    path('admin/', admin.site.urls),
 ]

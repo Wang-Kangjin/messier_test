@@ -12,55 +12,7 @@ def hours_ahead(request, offset):
     return HttpResponse(html)
 
 def index(request):
-    t = loader.get_template('name.html')
-    c = {}
-    html = t.render(c)
-    return HttpResponse(html)
-
-def name(request):
-    t = loader.get_template('name.html')
-    c = {}
-    html = t.render(c)
-    return HttpResponse(html)
-
-def asteroid(request):
-    t = loader.get_template('asteroid.html')
-    c = {}
-    html = t.render(c)
-    return HttpResponse(html)
-
-def galaxy(request):
-    t = loader.get_template('galaxy.html')
-    c = {}
-    html = t.render(c)
-    return HttpResponse(html)
-
-def moon(request):
-    t = loader.get_template('moon.html')
-    c = {}
-    html = t.render(c)
-    return HttpResponse(html)
-
-def pluto(request):
-    t = loader.get_template('pluto.html')
-    c = {}
-    html = t.render(c)
-    return HttpResponse(html)
-
-def star(request):
-    t = loader.get_template('star.html')
-    c = {}
-    html = t.render(c)
-    return HttpResponse(html)
-
-def year(request):
-    t = loader.get_template('year.html')
-    c = {}
-    html = t.render(c)
-    return HttpResponse(html)
-
-def result(request):
-    t = loader.get_template('result.html')
+    t = loader.get_template('index.html')
     c = {}
     html = t.render(c)
     return HttpResponse(html)
